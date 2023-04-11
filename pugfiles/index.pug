@@ -1,0 +1,27 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  meta(name='description' content='')
+  meta(name='keywords' content='')
+  meta(name='ROBOT' content='index, follow')
+  style
+    include style.css 
+  //- link(rel='shortcut icon' href='images/logo.jpeg' type='image/x-icon')
+  //- favicon
+  //-   include images/logo.jpeg
+  title DSA Algo Visualiser
+header
+  h1 Welcome to Bubble Sort
+nav
+  input#num(type='number' name='num')
+  button#ins(type='submit' onclick='insert()') Insert
+  button#bub(type='submit' onclick='bubbleSort()') Bubble Sort
+  button#bub2(type='submit' onclick='insertionSort()') Quick Sort
+  button#bub3(type='submit' onclick='selectionSort()') Selection Sort
+section
+  #canvas.canvas
+script
+    include script.js 
+

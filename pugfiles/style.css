@@ -1,0 +1,32 @@
+.canvas{
+    width: 80vw;
+    height: 77vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 15px;
+}
+
+.bar{
+    width: 30px;
+    background-color: yellowgreen;
+    position: relative;
+    bottom: 25px;
+    left: 45px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.bar_id{
+    /* height: 15px; */
+    text-align: center;
+    width: inherit;
+    display: inline-block;
+    color: crimson;
+    font-weight: bold;
+}
+
